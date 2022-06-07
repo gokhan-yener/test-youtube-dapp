@@ -76,11 +76,8 @@ function App() {
                 <input type="radio" name="ag" value="0xC05ABC9012C229Fe9042e67a93C5E72A142B5Ac4" onChange={e => setGreeterAddress(e.target.value)} /> BSC
                 <input type="radio" name="ag" value="0xECc4025F4423433ec33c4A34e2ddeC49238B8f98" onChange={e => setGreeterAddress(e.target.value)} /> Ropsten
                 <input type="radio" name="ag" value="0x3cBfa8c2748280DA21Df24A2189027aBBB1D2B97" onChange={e => setGreeterAddress(e.target.value)} /> Polygon Mumbai
-            </div>
+                <input type="radio" name="ag" value="0xc6825D90051aAD4f737827e82A85F6f548657E15" onChange={e => setGreeterAddress(e.target.value)} /> Rinkeby  </div>
             {/****************************************************************************/}
-
-
-
 
             <
                 button onClick={fetchGreeting}> Selamlamayı Çağır

@@ -28,29 +28,36 @@ module.exports = {
   networks: {
     hardhat: {
       chainId: 1337
-    }
-  },
-  mumbai: {
-    /*
-    Infura API adresi buraya girilmeli
-    */
-    url: "https://polygon-mumbai.g.alchemy.com/v2/P3ka4QNiO3tQM1In_L8ttMzOQtxjIscX",
-    accounts: [privateKey]
-  },
-  ropsten: {
-    /*
-    Ropsten API adresi buraya girilmeli
-    */
-    url: "https://ropsten.infura.io/v3/4864e506cf844c519723db276ab1374d",
-    accounts: [privateKey]
-  },
-  binance: {
-    /*
-    bsc nin adresi standart direk kopyala yapıştır yapabilirsin
-    */
-    url: "https://data-seed-prebsc-1-s1.binance.org:8545",
-    chainId: 97,
-    gasPrice: 20000000000,
-    accounts: [privateKey]
-  },
+    },
+    mumbai: {
+      /*
+      Infura API adresi buraya girilmeli
+      */
+      url: "https://polygon-mumbai.g.alchemy.com/v2/P3ka4QNiO3tQM1In_L8ttMzOQtxjIscX",
+      accounts: [privateKey]
+    },
+    ropsten: {
+      /*
+      Ropsten API adresi buraya girilmeli
+      */
+      url: "https://ropsten.infura.io/v3/4864e506cf844c519723db276ab1374d",
+      accounts: [privateKey]
+    },
+    rinkeby: {
+      /*
+      Rinkeby API adresi buraya girilmeli
+      */
+      url: "https://eth-rinkeby.alchemyapi.io/v2/P3ka4QNiO3tQM1In_L8ttMzOQtxjIscX",
+      accounts: [privateKey]
+    },
+    binance: {
+      /*
+      bsc nin adresi standart direk kopyala yapıştır yapabilirsin
+      */
+      url: "https://data-seed-prebsc-1-s1.binance.org:8545",
+      chainId: 97,
+      gasPrice: 20000000000,
+      accounts: [privateKey]
+    },
+  }
 };
