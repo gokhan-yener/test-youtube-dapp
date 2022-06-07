@@ -5,7 +5,7 @@ import {
 import {
     ethers
 } from 'ethers'
-import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json'
+import Greeter from './Greeter.json'
 // Deploy sonrası verdiği adresi buraya giriyoruz
 //const greeterAddress = "0xECc4025F4423433ec33c4A34e2ddeC49238B8f98"
 
